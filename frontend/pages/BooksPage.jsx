@@ -13,7 +13,7 @@ const BooksPage = () => {
     // const fetchProducts = async () => {
     //     try {
     //         THIS WORKS
-    //         const response = await fetch('http://localhost:8080/api/getallbooks');// to -> server.js (backend folder) -> app.use('/api/products', productRoutes);
+    //         const response = await fetch('http://localhost:8080/api/getallbooks');
 
     //         for testing controllers and routes
     //         const response = await fetch('http://localhost:8080/api/products');
@@ -33,7 +33,7 @@ const BooksPage = () => {
 
     const fetchProducts = async () => {
       try {
-          const response = await fetch('http://localhost:8080/api/products');
+          const response = await fetch('http://localhost:8080/api/products');// to -> server.js (backend folder) -> app.use('/api/products', productRoutes);
   
           if (!response.ok) {
               throw new Error('Network response was not ok');
