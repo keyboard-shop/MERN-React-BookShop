@@ -13,7 +13,7 @@ const BooksPage = () => {
     // const fetchProducts = async () => {
     //     try {
     //         THIS WORKS
-    //         const response = await fetch('http://localhost:8080/api/getallbooks');
+    //         const response = await fetch('http://localhost:8080/api/getallbooks');// to -> server.js (backend folder) -> app.use('/api/products', productRoutes);
 
     //         for testing controllers and routes
     //         const response = await fetch('http://localhost:8080/api/products');
