@@ -4,7 +4,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-
+// Navbar.jsx to -> App.jsx
 const Navbar = () => {
     
     return (
